@@ -22,3 +22,25 @@ HUBERLUS-BTP-App/
 └── .github/
     └── workflows/
         └── deploy.yml
+HUBERLUS-BTP-App/
+├── README.md
+├── app/
+│   ├── main.py
+│   ├── modules/
+│   │   ├── projets.py
+│   │   ├── cartographie.py
+│   │   ├── communication.py
+│   │   ├── comptabilite.py
+│   │   └── auth.py
+│   ├── assets/
+│   │   ├── logo.png
+│   │   ├── plans/
+│   │   └── cartes/
+│   └── templates/
+│       ├── home.html
+│       ├── login.html
+│       └── dashboard.html
+├── requirements.txt
+└── .github/
+    └── workflows/
+        └── deploy.yml
